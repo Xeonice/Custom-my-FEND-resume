@@ -12,9 +12,24 @@
 
 html {
     color: #222;
-    font-size: 1em;
+    font-size: 12px;
     line-height: 1.4;
 }
+body,
+div,
+ul,
+li,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    padding: 0;
+    margin: 0;
+}
+
 
 /*
  * Remove text-shadow in selection highlight:
@@ -94,22 +109,27 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    .position-arrange{
+        position: relative;
+        left: 17.4%;
+    }
+    .TopBar{
+        background-color: #3f5765;
+        width: 100%;
+        height: 2.6%;
+        display: flex;
+    }
+    .Logo{
+        top: 0.7%;
+        padding: 1.83rem 1.67rem 1.83rem 0;
+    }
+    .LogoText{
+        font-family: Quantico-Bold;
+        font-size: 24px;
+        color: #FFFFFF;
+        letter-spacing: 3.62px;
+        padding: 1.92rem 0 1.83rem 0;
+    }
 
 /* ==========================================================================
    Helper classes
