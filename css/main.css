@@ -186,6 +186,35 @@ textarea {
         justify-content: space-between;
         padding-bottom: 1.33rem;
     }
+    .Oxygen-Regular{
+        font-family: Oxygen-Regular;
+        font-size: 16px;
+        color: #FFFFFF;
+        letter-spacing: 2.41px;
+    }
+    .contact{
+        display: flex;
+        flex-direction:row;
+        justify-content: space-between;
+        padding:1.75rem 0 3.08rem 0;
+    }
+    .contact-block{
+        display: flex;
+        flex-direction: column;
+    }
+    .contact-line{
+        display: flex;
+        padding-bottom: 1.63rem;
+    }
+    .p-Contact{
+        margin-top: auto;
+        margin-bottom: auto;
+        padding-left: 1.63rem;
+    }
+    .img-Contact{
+        width:30px;
+        height: 30px;
+    }
 
 /* ==========================================================================
    Helper classes
