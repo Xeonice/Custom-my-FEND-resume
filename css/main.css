@@ -31,7 +31,6 @@ h6 {
     margin: 0;
 }
 
-
 /*
  * Remove text-shadow in selection highlight:
  * https://twitter.com/miketaylr/status/12228805301
@@ -110,9 +109,11 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-    .position-arrange{
-        position: relative;
-        left: 17.4%;
+    .container{
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 17.4%;
+        padding-right: 17.4%;
     }
     .TopBar{
         background-color: #3f5765;
@@ -150,7 +151,6 @@ textarea {
     }
     .name{
         padding: 6.92rem 2.5rem 1.33rem 0;
-        order:1;
     }
     .Quantico-Regular{
         font-family: Quantico-Regular;
@@ -160,15 +160,32 @@ textarea {
     }
     .role{
         padding-top: 8.92rem;
-        order:2;
     }
-    .WelcomeMessage{
+    .Quantico-Bold-WelcomeMessage{
         font-family: Quantico-Bold;
         font-size: 20px;
         color: #FFFFFF;
         letter-spacing: 3.02px;
     }
-
+    .skill-headline{
+        display: flex;
+        justify-content: center;
+        padding-bottom: 0.5%;
+    }
+    .Oxygen-Bold{
+        font-family: Oxygen-Bold;
+        font-size: 16px;
+        color: #FFFFFF;
+        letter-spacing: 2.41px;
+    }
+    .skill-padding{
+        padding:1.33rem 0 4.59rem 0;
+    }
+    .skill-line{
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 1.33rem;
+    }
 
 /* ==========================================================================
    Helper classes
