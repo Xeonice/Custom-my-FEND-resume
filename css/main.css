@@ -215,6 +215,28 @@ textarea {
         width:30px;
         height: 30px;
     }
+    .work-experience{
+        padding:2rem 0 0.67rem 0 ;
+    }
+    .description-Location-Block{
+        display: flex;
+        justify-content: space-between;
+    }
+    .work-experience-block{
+        padding-bottom: 2.83rem;
+    }
+    .Oxygen-Light{
+        font-family: Oxygen-Light;
+        font-size: 24px;
+        color: #FFFFFF;
+        letter-spacing: 3.62px;
+    }
+    .experience-title{
+        padding-bottom: 0.5rem;
+    }
+    .experience-job-role{
+        padding-bottom: 1.33rem;
+    }
 
 /* ==========================================================================
    Helper classes
