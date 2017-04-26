@@ -249,6 +249,20 @@ textarea {
     .project-description{
         padding-bottom: 1.33rem;
     }
+
+    .education-block{
+        padding:2rem 0 2.8rem 0;
+    }
+    .education-school{
+        padding-bottom: 0.5rem;
+    }
+    .education-year{
+        padding-bottom: 1.33rem;
+    }
+    .major-Location-block{
+        display: flex;
+        justify-content: space-between;
+    }
 /* ==========================================================================
    Helper classes
    ========================================================================== */
